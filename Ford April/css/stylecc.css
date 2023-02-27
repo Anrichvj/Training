@@ -1,0 +1,190 @@
+/*main body*/
+body {
+  font-family: Gilmer, sans-serif;
+  font-weight: 400;
+}
+
+/*nav!!!*/
+.nav {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  height: 77px;
+}
+
+/*other linked pages!*/
+.navright {
+  height: 48px;
+  width: 570px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 22px;
+  margin-right: 7px;
+  background-color: white;
+  float: right;
+  margin-inline: 10px;
+}
+
+/*LOGO IN THE LEFT!!*/
+.navleft {
+  height: 77px;
+  background-color: white;
+  float: left;
+}
+
+/*LINKED PAGES ABOUT, CONTACT, INSIGHTS WORK,!!*/
+a {
+  font-size: 15px;
+  font-weight: 600;
+  margin-inline: 33px;
+  margin-left: 0px;
+  text-decoration: none;
+  color: darkslategray;
+  margin-bottom: 20px;
+}
+
+/*hover for all pages links*/
+a:hover {
+  text-decoration: underline;
+}
+
+/*index page*/
+.main {
+  background-color: white;
+  height: 343px;
+  float: center;
+}
+
+.containerleft {
+  height: 365px;
+  background-color: #fbf7ef;
+  padding: 50px;
+  margin-left: 10px;
+}
+
+.textbox {
+  width: 45%;
+  padding: 15px;
+  font-weight: 400;
+  font-size: medium;
+  margin-top: 60px;
+}
+
+.box {
+  background-color: #fbf7ef;
+  width: 95%;
+  height: 390px;
+  padding: 20px;
+  margin-left: 12px;
+  margin-right: 20px;
+}
+
+.divleft {
+  float: left;
+  width: 550px;
+  height: 200px;
+  background-color: #fbf7ef;
+  font-size: smaller;
+}
+
+.divright {
+  float: right;
+  width: 590px;
+  height: 200px;
+  background-color: #fbf7ef;
+}
+
+.contact {
+  height: 330px;
+  float: left;
+}
+
+.contact2 {
+  height: 366px;
+  float: right;
+}
+
+.textbox2 {
+  float: right;
+  margin-left: 10px;
+  padding: 10px;
+  width: 40%;
+  font-weight: 400;
+  font-size: medium;
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+
+p {
+  font-size: small;
+}
+
+/*af logo*/
+.img {
+  height: 40px;
+  margin-top: 80px;
+}
+
+/*index photo*/
+.index {
+  height: 450px;
+  margin-left: 10px;
+}
+
+.about {
+  height: 345px;
+  margin-left: 10px;
+}
+
+.services {
+  height: 415px;
+  margin-left: 5px;
+}
+
+/*index button*/
+button {
+  background-color: #fbf7ef;
+  height: 49px;
+  width: 179px;
+  float: left;
+  margin-top: 3px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+/*index button hover*/
+button:hover {
+  color: #fbf7ef;
+  background-color: black;
+}
+
+/*Logo photo to link to index page*/
+.april {
+  height: 49px;
+  margin-left: 42px;
+  margin-top: 10px;
+  padding: 0px;
+}
+h1 {
+  font-size: 24px;
+  line-height: 44px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.divline {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/*index footer*/
+.foot {
+  background-color: white;
+  margin-top: 130px;
+
+  font-weight: 400;
+  margin-left: 63px;
+  width: 43%;
+}
