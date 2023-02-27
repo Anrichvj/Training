@@ -1,0 +1,123 @@
+   a {
+ 
+text-decoration: none;
+color:black;
+
+
+      
+  }
+
+          
+  body    {
+  background-color:lightgray;
+  
+  } 
+    .header {
+      background-color: darkolivegreen;
+      padding: 20px;
+      text-align: center;
+      background-image: url(chefs\ food.jpg);
+      background-size: 950px;
+      background-repeat: unset;
+      background-size: contain;
+      color:white;
+      list-style: none;
+      font-family: Arial;
+      font-size: 120%;
+   
+    }
+
+
+    .nav {
+      background-color:lightgray;
+      padding: px;
+      text-align: center;
+      font-family: Arial;
+    }
+
+
+    .main {
+      background-color:gray;
+      font-family: Arial;
+      text-align: center;      
+    }
+
+
+    .mainleft {
+      float: left;
+      width: 60%; 
+      text-align: left;
+    }
+
+    .mainright{
+      font-family: Arial;
+      font-size: 100%;
+    }
+
+
+    .pizza{
+      padding: 25px;
+      float: right;
+      width: 40%;
+      width: 450px;
+      height: 525px;
+
+  
+    }
+
+    .top10{
+      padding: 25px;
+      float: right;
+      width: 40%;
+      width: 450px;
+      height: 525px;
+
+    }
+
+    .chart{
+      padding: 25px;
+      float: right;
+      width: 40%;
+      width: 400px;
+      height: 475px;
+
+
+    }
+
+    p{
+
+      font-size: 100%;
+    }
+
+   
+th {
+  background-color:gray;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  
+  }
+  
+  table, th,td {
+  border: 2px solid black;
+  font-family: Arial;
+  }
+
+    .fats{
+      padding: 25px;
+      float: right;
+      width: 40%;
+      width: 450px;
+      height: 525px;
+  
+    }
+
+
+    .footer {
+      clear: both;
+      background-color: lightgray;
+      padding: 0px;
+      text-align: center;
+      font-family: Arial;
+      font-size: 50%;
+    }

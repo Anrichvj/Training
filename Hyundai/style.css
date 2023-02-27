@@ -1,0 +1,128 @@
+ /*=======body section=======*/
+ .body {
+   font-size: medium;
+ }
+
+ /*=====heading section===*/
+ .header {
+   background-color: whitesmoke;
+   padding: 20px;
+   text-align: center;
+   background-size: contain;
+   color: white;
+   list-style: none;
+   font-family: Arial;
+   font-size: 120%;
+ }
+
+
+
+ .m1 {
+   text-align: center;
+ }
+
+ /*=====navbar===*/
+ .nav {
+   background-color: white;
+   height: 53px;
+   padding: 10;
+   text-align: center;
+   font-family: Arial;
+   font-size: 150%;
+ }
+
+
+ /*=========sidebar====*/
+ .sidebar {
+   background-color: rgba(158, 197, 230, 0.9);
+   padding: 13px;
+   text-align: left;
+   float: left;
+   width: 25%;
+   font-weight: lighter;
+   color: black;
+
+ }
+
+ /*==========main content=====*/
+ .main {
+   background-color: gray;
+   font-family: Arial;
+   text-align: left;
+   height: 530px;
+   font-size: larger;
+   background-image: url(i30n.jpg);
+   background-size: cover;
+
+ }
+
+ .maines {
+   background-color: gray;
+   font-family: Arial;
+   text-align: left;
+   height: 530px;
+   font-size: larger;
+   background-image: url(i30engine.jpg);
+   background-size: cover;
+
+ }
+
+ .mainpr {
+   background-color: gray;
+   height: 640px;
+   text-align: center;
+
+
+ }
+
+ .img_logo {
+   padding: 0px;
+   float: left;
+   width: 86px;
+   height: 49px;
+ }
+
+ .img_interior {
+   background-color: gray;
+   font-family: Arial;
+   text-align: left;
+   height: 550px;
+   width: 100%;
+   font-size: larger;
+   background-size: cover;
+   background-image: url(i30ninterior.jpg);
+ }
+
+ video {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 80%;
+   object-fit: none;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+ }
+
+ .gallery {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .gallery img {
+   width: 25%;
+   height: auto;
+   object-fit: cover;
+   margin: 10px;
+ }
+
+ .footer {
+   clear: both;
+   background-color: rgb(248, 245, 245);
+   padding: 10px;
+   text-align: center;
+   font-family: Arial;
+   font-size: 100%;
+ }
