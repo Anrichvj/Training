@@ -20,10 +20,10 @@ body {
   font-size: 16px;
   font-weight: 500;
   margin-top: 22px;
-  margin-right: 7px;
+  margin-right: 0px;
   background-color: white;
   float: right;
-  margin-inline: 10px;
+  margin-inline: 0px;
 }
 
 /*LOGO IN THE LEFT!!*/
@@ -39,7 +39,6 @@ a {
   font-weight: 600;
   margin-inline: 30px;
   margin-left: 1px;
-
   text-decoration: none;
   color: darkslategray;
   margin-bottom: 20px;
@@ -69,7 +68,6 @@ h2 {
   height: 100px;
   margin-left: 24px;
   margin-right: 20px;
-
   padding: 0px;
   float: left;
 }
@@ -86,7 +84,9 @@ h2 {
   padding: 15px;
   font-weight: 400;
   font-size: medium;
-  margin-top: 60px;
+  background-color: white;
+  margin-left: 40px;
+  margin-bottom: 50px;
 }
 
 hr {
@@ -141,7 +141,7 @@ hr {
 }
 
 p {
-  font-size: 400;
+  font-size: 200;
   margin-left: 50px;
   margin-top: 30px;
   margin-right: 10px;
@@ -184,42 +184,73 @@ p {
   margin-left: 5px;
 }
 
+.industries {
+  height: 425px;
+  margin-left: 10px;
+  margin-right: 5px;
+  width: 98%;
+}
+
 .one {
   float: left;
-  background-color: tomato;
+  background-color: white;
   height: 400px;
   width: 50%;
+  margin-top: 20px;
 }
 .onea {
   float: left;
-  background-color: blue;
-  height: 400px;
+  background-color: white;
+  height: 305px;
   width: 50%;
+}
+
+.photo1 {
+  height: 305px;
+  width: 100%;
+  margin-left: 20px;
 }
 .oneb {
   float: left;
-  background-color: greenyellow;
+  background-color: white;
   height: 400px;
   width: 50%;
 }
 
+.photo2 {
+  height: 305px;
+  width: 100%;
+}
+
 .two {
   float: right;
-  background-color: tomato;
+  background-color: white;
   height: 400px;
   width: 50%;
+  margin-top: 20px;
+}
+
+.photo3 {
+  height: 305px;
+  width: 100%;
 }
 .twoa {
   float: left;
-  background-color: blue;
+  background-color: white;
   height: 400px;
   width: 50%;
 }
 .twob {
   float: left;
-  background-color: greenyellow;
+  background-color: white;
   height: 400px;
   width: 50%;
+}
+
+.photo4 {
+  height: 305px;
+  width: 92%;
+  margin-right: 30px;
 }
 
 /*index button*/
@@ -233,6 +264,24 @@ button {
   font-size: 22px;
   line-height: 25px;
   margin-right: 50px;
+}
+
+button2 {
+  float: left;
+  background-color: white;
+  height: 49px;
+  width: 179px;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 52px;
+  text-align: center;
+  border: solid;
+}
+
+button2:hover {
+  color: #fbf7ef;
+  background-color: black;
 }
 
 /*index button hover*/
@@ -264,9 +313,9 @@ h1 {
 /*index footer*/
 .foot {
   background-color: white;
-  margin-top: 130px;
-
+  margin-top: 17px;
   font-weight: 400;
-  margin-left: 63px;
-  width: 43%;
+  font-size: medium;
+  margin-left: 61px;
+  width: 48%;
 }
