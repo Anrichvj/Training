@@ -13,6 +13,12 @@ body {
   margin-right: 5px;
 }
 
+.main {
+  background-color: white;
+  margin-bottom: 22px;
+  height: 400px;
+}
+
 /*other linked pages!*/
 .navright {
   height: 48px;
@@ -73,20 +79,18 @@ h2 {
 }
 
 .containerleft {
-  height: 365px;
+  height: 360px;
   background-color: #fbf7ef;
-  padding: 50px;
+  padding: 30px;
   margin-left: 10px;
+  margin-top: 20px;
 }
 
-.textbox {
-  width: 45%;
-  padding: 15px;
+p4 {
+  float: left;
+  font-size: 400;
   font-weight: 400;
-  font-size: medium;
-  background-color: white;
-  margin-left: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 hr {
@@ -98,7 +102,7 @@ hr {
 .box {
   background-color: #fbf7ef;
   width: 95%;
-  height: 390px;
+  height: 359px;
   padding: 20px;
   margin-left: 12px;
   margin-right: 20px;
@@ -106,17 +110,26 @@ hr {
 
 .divleft {
   float: left;
-  width: 550px;
-  height: 200px;
+  width: 556px;
+  height: 290px;
   background-color: #fbf7ef;
   font-size: smaller;
+  margin-top: -0;
+  margin-left: 30px;
 }
 
 .divright {
   float: right;
   width: 590px;
-  height: 200px;
+  height: 265px;
   background-color: #fbf7ef;
+  margin-top: 10px;
+  margin-right: 38px;
+}
+
+h5 {
+  font-size: x-large;
+  margin-top: 10px;
 }
 
 .contact {
@@ -129,15 +142,35 @@ hr {
   float: right;
 }
 
-.textbox2 {
+.aboutbox2 {
   float: right;
   margin-left: 10px;
   padding: 10px;
-  width: 40%;
+  width: 50%;
   font-weight: 400;
   font-size: medium;
   margin-bottom: 10px;
-  margin-top: 60px;
+  margin: left 10px;
+  background-color: #fbf7ef;
+}
+
+.aboutbox {
+  width: 45%;
+  padding: 15px;
+  background-color: #fbf7ef;
+  font-weight: 500;
+  font-size: larger;
+}
+
+hr1 {
+  width: 100%;
+}
+
+.industriesbox {
+  width: 40%;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  margin-top: -0px;
 }
 
 p {
@@ -148,18 +181,28 @@ p {
   font-weight: 400;
 }
 
+.work {
+  background-color: #fbf7ef;
+  height: 240px;
+  margin-left: 24px;
+  margin-right: 20px;
+  padding: 0px;
+  float: left;
+  width: 96%;
+}
+
 .work1 {
   height: 285px;
   float: left;
   margin-top: 55px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .work2 {
   height: 280px;
   float: right;
   margin-top: 55px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 /*af logo*/
@@ -172,6 +215,25 @@ p {
 .index {
   height: 450px;
   margin-left: 10px;
+}
+
+h3 {
+  margin-left: 0px;
+  margin-top: 45px;
+  font-size: x-large;
+}
+
+button5 {
+  float: left;
+  background-color: #fbf7ef;
+  height: 49px;
+  width: 179px;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 52px;
+  text-align: center;
+  border: solid;
 }
 
 .about {
@@ -284,6 +346,11 @@ button2:hover {
   background-color: black;
 }
 
+button5:hover {
+  color: #fbf7ef;
+  background-color: black;
+}
+
 /*index button hover*/
 button:hover {
   color: #fbf7ef;
@@ -301,19 +368,33 @@ h1 {
   font-size: 24px;
   line-height: 44px;
   font-weight: 700;
-  margin-left: 22px;
+  margin-left: 34px;
 }
 
 .divline {
   display: block;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 10px;
+  height: 1px;
+  width: 98%;
+  margin-left: 30px;
+
+  background-color: black;
+}
+
+.divline2 {
+  display: block;
+  margin-top: 10px;
+  height: 1px;
+  width: 100%;
+  margin-left: 10px;
+
+  background-color: black;
 }
 
 /*index footer*/
 .foot {
   background-color: white;
-  margin-top: 17px;
+  margin-top: 10px;
   font-weight: 400;
   font-size: medium;
   margin-left: 61px;
