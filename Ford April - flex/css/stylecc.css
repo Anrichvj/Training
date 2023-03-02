@@ -11,12 +11,29 @@ body {
   margin: 0px;
   height: 77px;
   margin-right: 5px;
+  float: left;
 }
 
 .main {
   background-color: white;
   margin-bottom: 22px;
   height: 400px;
+}
+
+.flex container {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+}
+
+.flex container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.flex container3 {
+  display: flex;
+  justify-content: center;
 }
 
 /*other linked pages!*/
