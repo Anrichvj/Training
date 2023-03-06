@@ -5,35 +5,18 @@ body {
 }
 
 /*nav!!!*/
-.nav {
+.nav.d-flex {
   background-color: white;
   padding: 0px;
   margin: 0px;
   height: 77px;
   margin-right: 5px;
-  float: left;
 }
 
 .main {
   background-color: white;
   margin-bottom: 22px;
   height: 400px;
-}
-
-.flex container {
-  display: flex;
-  justify-content: center;
-  width: 20px;
-}
-
-.flex container2 {
-  display: flex;
-  justify-content: center;
-}
-
-.flex container3 {
-  display: flex;
-  justify-content: center;
 }
 
 /*other linked pages!*/
@@ -45,7 +28,8 @@ body {
   margin-top: 22px;
   margin-right: 0px;
   background-color: white;
-  float: right;
+  display: flex;
+  justify-content: end;
   margin-inline: 0px;
 }
 
@@ -101,6 +85,28 @@ h2 {
   padding: 30px;
   margin-left: 10px;
   margin-top: 20px;
+}
+
+.container {
+  background-color: maroon;
+  width: 97%;
+  height: 450px;
+}
+
+.content1 {
+  background-color: skyblue;
+}
+
+.content2 {
+  background-color: red;
+}
+
+.content3 {
+  background-color: blue;
+}
+
+.content4 {
+  background-color: orange;
 }
 
 p4 {
