@@ -240,7 +240,7 @@ hr {
 .infoleft {
   width: 50%;
   height: 290px;
-  background-color: greenyellow;
+  background-color: #fbf7ef;
   font-size: smaller;
   margin-top: -0;
   margin-left: 50px;
@@ -254,24 +254,36 @@ hr {
 
 .textdiv {
   min-height: 100px;
-  min-width: 100px;
-  background-color: yellow;
+  width: 290px;
+  background-color: #fbf7ef;
+  padding-top: 50px;
+  flex-grow: 1;
 }
 
 .inforight {
   display: flex;
-
+  align-items: flex-start;
+  flex-direction: column;
+  flex-grow: 1;
   width: 50%;
   height: 290px;
-  background-color: red;
+  background-color: #fbf7ef;
   font-size: large;
   margin-top: -0;
   margin-right: 70px;
   margin-top: 0px;
 }
 
+.heading5 {
+  min-height: 100px;
+  min-width: 100px;
+  background-color: #fbf7ef;
+  display: flex;
+  align-items: center;
+}
+
 .textbox3 {
-  background-color: blue;
+  background-color: #fbf7ef;
   height: 100px;
 }
 
@@ -316,6 +328,10 @@ h5 {
 
 hr1 {
   width: 100%;
+}
+.boks {
+  height: 500px;
+  background-color: #fbf7ef;
 }
 
 .industriesbox {
