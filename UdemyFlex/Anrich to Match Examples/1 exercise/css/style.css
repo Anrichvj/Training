@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 body {
   font-family: "Lexend Deca", sans-serif;
@@ -13,24 +12,20 @@ header {
   justify-content: center;
   align-items: center;
 }
-.header__content {
-  text-align: center;
-}
 .header__heading {
-  font-size: 4.5rem;
-  margin: 2rem 0;
+  text-align: center;
+  font-size: 32px;
+  margin: 20px;
 }
-.header__btn {
-  display: inline-block;
+
+.button {
+  line-height: 3;
+  border-radius: 20px;
   background-color: #9ede24;
-  font-size: 0.9rem;
-  line-height: 1;
-  color: #fff;
-  text-transform: uppercase;
   text-decoration: none;
-  border: 0.1rem solid transparent;
-  padding: 1.2rem 2.6rem;
-  margin: 0.3rem;
-  border-radius: 2rem;
-  cursor: pointer;
+  width: 150px;
+  color: white;
+  display: inline-block;
+  font-size: medium;
+  margin-top: 40px;
 }
