@@ -1,44 +1,58 @@
 * {
-    margin: 0;
-    padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-	font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
 }
 header {
   text-align: center;
   padding: 32px;
 }
-.row {
+.row1 {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
   margin-bottom: 80px;
 }
-.column {
-  flex: 25%;
-  max-width: 25%;
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
   padding: 0 4px;
+  margin-bottom: 80px;
 }
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+
+.row3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-bottom: 80px;
 }
-@media screen and (max-width: 800px) {
 
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-
+.row4 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-bottom: 80px;
 }
-@media screen and (max-width: 600px) {
+.column1 {
+  display: flex 25%;
+  max-width: 25%;
+}
 
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
+.column2 {
+  display: flex;
+  justify-content: space-evenly;
+}
 
+.column3 {
+  display: flex 25%;
+  max-width: 25%;
+}
+
+.column4 {
+  display: flex 25%;
+  max-width: 25%;
 }

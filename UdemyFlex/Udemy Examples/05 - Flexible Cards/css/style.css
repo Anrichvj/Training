@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 body {
   font-family: "Lexend Deca", sans-serif;
@@ -11,27 +10,25 @@ body {
   flex-wrap: wrap;
 }
 .card {
-  flex: 0 0 300px;
+  flex: 15px;
   margin: 10px;
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border: 5px solid #ccc;
 }
 .card img {
   max-width: 100%;
 }
 .card .text {
-  padding: 0 20px 20px 20px;
+  padding: 40px;
 }
-.card .text > button {
-  background-color: #8e44ad;
-  border: 0;
+.card .text button {
+  background-color: purple;
   color: #fff;
   padding: 10px;
-  width: 100%;
+  width: 75%;
   font-size: 16px;
   cursor: pointer;
 }
 p {
-  margin: 10px 0;
+  margin: 10px;
   font-size: 16px;
 }
