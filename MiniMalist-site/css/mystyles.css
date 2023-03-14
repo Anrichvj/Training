@@ -1,167 +1,47 @@
-body {
-  padding-top: 115px;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 10px;
-}
-
-.logo {
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-left: 9px;
-  background-color: blue;
-}
-
-.column {
-  flex-direction: column;
-}
-
-h1 {
-  font-family: "Yantramanav";
-  font-size: 40px;
-  font-weight: 300;
-  width: 75%;
-  margin-left: 60px;
-  margin-bottom: 29px;
-}
-
-h2 {
-  padding-bottom: 30px;
-  color: #444444;
-  font-family: "Yantramanav", Arial, sans-serif;
-  font-size: 28px;
-  line-height: 37px;
-  font-weight: 300;
-  text-align: center;
-  margin-right: 600px;
-  margin-top: 35px;
-}
-
-p {
-  padding-bottom: 25px;
-  margin-bottom: 70px;
-  color: #666666;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 30px;
-  text-align: center;
-  width: 80%;
-  height: 50px;
-}
-
-a {
-  margin-right: 25px;
-  text-decoration: none;
-  font-weight: 500;
-  color: black;
-  font-family: "Yantramanav";
-  padding: 4px;
-}
-
-button {
-  margin-left: 50px;
-  background: #6dd795;
-  border-radius: 5px;
-  font-family: "Yantramanav", Arial, sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: center;
-  font-weight: 500;
-  color: white;
-  padding: 12px 25px;
-  border-color: #6dd795;
-  width: 49%;
-}
-
-.btn {
-  width: 15%;
-  margin-left: 100px;
-}
-
-.btn2 {
-  width: 30%;
-  margin-left: 125px;
-}
-
-h3 {
-  padding-bottom: 30px;
-  color: #444444;
-  font-family: "Yantramanav", Arial, sans-serif;
-  font-size: 19px;
-  line-height: 30px;
-  font-weight: 300;
-  text-align: center;
-  margin-left: 25px;
-  margin-top: 35px;
-  width: 40%;
-}
-
-h4 {
-  font-family: "Yantramanav", Arial, sans-serif;
-  font-size: 30px;
-  font-weight: 300;
-  color: #444444;
-  text-align: center;
-  margin-top: 30px;
-}
-
-h5 {
-  font-family: "Yantramanav", Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  text-align: center;
-  width: 80%;
-  margin-left: 50px;
-}
-
-.img2 {
-  margin-left: 25px;
-}
-
-.content-block {
-  width: 45%;
-  height: 900px;
-  margin-top: 10px;
-}
-
-.photo-items {
-  display: flex;
-  justify-content: end;
-}
-
-.photo2 {
-  display: flex;
-  align-items: end;
-  justify-content: end;
-}
-
-.photo3 {
-  display: flex;
-  align-items: end;
-  justify-content: end;
-}
-
-body {
-  background-color: rgb(240, 236, 236);
-}
-
 .main-body {
   background-color: white;
   width: 48%;
   margin: auto;
   padding: 30px;
   border-radius: 5px;
+  background-color: crimson;
+}
+
+body {
+  padding-top: 115px;
+  background-color: blanchedalmond;
+}
+
+.main-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bullet-point1 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: aqua;
+}
+
+a {
+  text-align: right;
+}
+
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  background-color: pink;
+}
+/*beweeg groen blok*/
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 20px;
+  margin-left: 9px;
+  background-color: powderblue;
 }
