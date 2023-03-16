@@ -4,7 +4,7 @@
   margin: auto;
   padding: 30px;
   border-radius: 5px;
-  background-color: grey;
+  background-color: white;
 }
 
 body {
@@ -26,10 +26,14 @@ body {
 }
 
 .top-page {
-  background-color: red;
   display: flex;
   align-items: center;
   justify-content: end;
+}
+
+.photo-left {
+  margin-left: 5px;
+  margin-top: 15px;
 }
 
 .top-content {
@@ -38,6 +42,7 @@ body {
   align-items: end;
   padding-bottom: 20px;
   margin-left: 18px;
+  margin-top: 43px;
   color: #444444;
   font-family: "Yantramanav", Arial, sans-serif;
   font-size: 40px;
@@ -49,12 +54,12 @@ body {
 
 .middle-content {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
-  width: 230px;
+  width: 245px;
   height: 70px;
-  margin-top: 20px;
-  margin-left: 18px;
+  margin-top: 22px;
+  margin-left: 33px;
   padding-bottom: 25px;
   color: #666666;
   font-family: Arial, sans-serif;
@@ -63,10 +68,141 @@ body {
 }
 
 .bottom-content {
+  width: 300px;
   display: flex;
   justify-content: center;
-  background-color: silver;
   margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+button {
+  background: #6dd795;
+  border-radius: 5px;
+  font-family: "Yantramanav", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  border-style: none;
+  font-weight: 500;
+  color: white;
+  padding: 12px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 60px;
+  width: 150px;
+}
+
+.photo-two {
+  margin-left: 10px;
+}
+
+.text-one {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  padding-bottom: 30px;
+  color: #444444;
+  font-family: "Yantramanav", Arial, sans-serif;
+  font-size: 28px;
+  line-height: 37px;
+  font-weight: 300;
+}
+
+.text-two {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 26px;
+  color: #666666;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  width: 450px;
+  height: 10px;
+  margin-left: 40px;
+  margin-top: 29px;
+  text-align: center;
+  margin-left: 70px;
+}
+
+.btn {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: 60px;
+}
+
+.main-div {
+}
+
+.info-block {
+  background-color: skyblue;
+  width: 52%;
+  display: flex;
+  justify-content: space-between;
+  height: 385px;
+  margin-top: 40px;
+}
+
+.double-pics {
+  background-color: yellow;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: end;
+}
+
+.photo-block {
+  height: 100%;
+  width: 53%;
+}
+
+.photo-block-two {
+  height: 100%;
+  width: 45%;
+  margin-left: 12px;
+}
+
+.pen {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.photo-left {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.photo-right {
+  margin-right: 15px;
+  margin-top: 0px;
+}
+
+.top-photo {
+  margin-right: 15px;
+  margin-top: 0px;
+}
+
+.middle-photo {
+  margin-right: 12px;
+  margin-top: 8px;
+}
+
+.hand {
+  flex-direction: column;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 49%;
+}
+
+.right-pics {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
 }
 
 .right-container {
@@ -74,30 +210,32 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: yellow;
   width: 100%;
   height: 300px;
+  margin-bottom: 8px;
 }
 
 a {
-  margin-right: 20px;
-
-  color: black;
+  color: #000000;
+  font-family: "Yantramanav", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin-right: 12px;
+  font-weight: 500;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
 }
 
 .bullet-point1 {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-right: 15px;
 }
 
 .bullet-point2 {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   margin-right: 5px;
 }
 
