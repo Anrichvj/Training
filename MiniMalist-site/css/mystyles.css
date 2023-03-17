@@ -1,6 +1,6 @@
 .main-body {
   background-color: white;
-  width: 630px;
+  width: 650px;
   margin: auto;
   padding: 30px;
   border-radius: 5px;
@@ -324,21 +324,62 @@ a {
 .footer {
   background-color: white;
   flex-direction: column;
-  width: 630px;
+  width: 650px;
   margin: auto;
-  padding: 15px;
+  padding: 50px;
 }
 
-.foot-logo {
-  background-color: green;
+.footer-top {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  width: 80px;
 }
 
-.Social-media {
+.logo-two {
+  margin-top: 2px;
+}
+
+.facebook {
+  margin-right: 5px;
+}
+
+.twitter {
+  margin-right: 5px;
+}
+
+.instagram {
+  margin-right: 5px;
+}
+
+.linkedin {
+  margin-right: 2px;
+}
+
+.side-text {
+  margin-top: 20px;
+  padding-bottom: 15px;
+  color: #999999;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.bottom-foot {
   display: flex;
   justify-content: space-between;
-  margin-left: 430px;
+}
+
+.bottom-right {
+  text-decoration: underline;
+  color: #999999;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.bottom-left {
+  color: #999999;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
 }
