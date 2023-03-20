@@ -1,0 +1,33 @@
+/*--div-1--*/
+.main-body {
+  background-color: rgb(230, 221, 221);
+  width: 1150px;
+  height: 650px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*--div-2--*/
+.content {
+  background-color: white;
+  width: 950px;
+  height: 335px;
+  display: flex;
+  justify-content: space-between;
+}
+/*--div-3--*/
+.photos {
+  background-color: red;
+  width: 400px;
+}
+
+.photo-left {
+  height: 120px;
+}
+
+.photo-right {
+  height: 120px;
+}
