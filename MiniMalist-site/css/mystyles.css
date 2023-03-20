@@ -21,7 +21,7 @@ body {
 .navigation {
   display: flex;
   flex-direction: row;
-
+  margin-right: 0px;
   margin-top: 10px;
 }
 
@@ -294,7 +294,7 @@ body {
   background-repeat: no-repeat;
   background-position: center left;
   padding-left: 27px;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .bullet-point1 {
