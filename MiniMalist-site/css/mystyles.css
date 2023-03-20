@@ -292,8 +292,9 @@ body {
   padding-left: 0px;
   background-image: url(../img/bullet.jpg);
   background-repeat: no-repeat;
-  background-position: center, left;
-  padding-left: 80px;
+  background-position: center left;
+  padding-left: 27px;
+  margin-right: 10px;
 }
 
 .bullet-point1 {
