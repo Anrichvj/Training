@@ -42,13 +42,6 @@ body {
   margin-top: 15px;
 }
 
-.btn-four {
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  margin-left: 110px;
-}
-
 .top-content {
   display: flex;
   justify-content: center;
@@ -166,13 +159,6 @@ body {
   line-height: 37px;
   font-weight: 300;
   margin-top: 20px;
-}
-
-.btn {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  margin-left: 60px;
 }
 
 .info-block {

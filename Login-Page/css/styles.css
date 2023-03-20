@@ -16,18 +16,19 @@
   width: 950px;
   height: 335px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 /*--div-3--*/
 .photos {
-  background-color: red;
-  width: 800px;
-  display: flex;
-  justify-content: space-evenly;
 }
-
 .photo-left {
   height: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  width: 350px;
 }
 
 .photo-right {
