@@ -13,32 +13,45 @@
 /*--div-2--*/
 .content {
   background-color: white;
-  width: 950px;
-  height: 335px;
+  width: 760px;
+  height: 280px;
   display: flex;
   justify-content: start;
-  border: 10px;
+  align-items: center;
+  border: solid grey 1px;
 }
-.right-content {
-  background-color: red;
-  width: 50%;
-  height: 185px;
-}
-/*--div-3--*/
+
 .photos {
-  border: 1px;
-  background-color: blue;
-  width: 50%;
-  height: 185px;
-  display: flex;
-  justify-content: center;
-}
-.photo-left {
-  height: 120px;
+  width: 425px;
+  height: 100%;
+  border-right: solid grey 2px;
   display: flex;
   justify-content: center;
 }
 
-.photo-right {
-  height: 160px;
+.left-logo {
+  width: 125px;
+  height: 125px;
+  margin-top: 20px;
+}
+
+.bottom-text {
+  background-color: tomato;
+  margin-left: 20px;
+  width: 500px;
+  margin-top: 100px;
+}
+
+.logo-two {
+  width: 320px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+}
+
+.right-logo {
+  width: 335px;
+  height: 145px;
+  margin-left: 5px;
+  margin-bottom: 45px;
+  border-bottom: solid grey 2px;
 }
