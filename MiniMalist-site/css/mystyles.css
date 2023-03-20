@@ -89,7 +89,7 @@ body {
   margin-left: 10px;
 }
 
-button {
+.button {
   background: #6dd795;
   border-radius: 5px;
   font-family: "Yantramanav", Arial, sans-serif;
@@ -116,6 +116,7 @@ button {
   justify-content: center;
   margin-top: 35px;
   padding-bottom: 30px;
+
   color: #444444;
   font-family: "Yantramanav", Arial, sans-serif;
   font-size: 28px;
@@ -281,14 +282,19 @@ button {
   line-height: 30px;
 }
 
-a {
+.navigation a {
   color: #000000;
   font-family: "Yantramanav", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  margin-right: 12px;
+  margin-right: -32px;
   font-weight: 500;
   text-decoration: none;
+  padding-left: 0px;
+  background-image: url(../img/bullet.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 90px;
 }
 
 .bullet-point1 {
@@ -335,8 +341,9 @@ a {
   width: 650px;
   margin: auto;
   padding: 50px;
+
   margin-top: 3px;
-  padding-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .footer-top {

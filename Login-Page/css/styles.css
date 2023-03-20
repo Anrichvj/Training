@@ -16,12 +16,14 @@
   width: 950px;
   height: 335px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 /*--div-3--*/
 .photos {
   background-color: red;
-  width: 400px;
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .photo-left {
@@ -29,5 +31,5 @@
 }
 
 .photo-right {
-  height: 120px;
+  height: 160px;
 }
