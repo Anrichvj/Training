@@ -19,8 +19,7 @@
   justify-content: start;
 }
 /*--div-3--*/
-.photos {
-}
+
 .photo-left {
   height: 120px;
   display: flex;
@@ -28,7 +27,6 @@
 }
 
 hr {
-  width: 350px;
 }
 
 .photo-right {
