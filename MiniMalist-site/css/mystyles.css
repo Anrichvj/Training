@@ -21,7 +21,7 @@ body {
 .navigation {
   display: flex;
   flex-direction: row;
-  margin-right: 20px;
+
   margin-top: 10px;
 }
 
@@ -287,14 +287,13 @@ body {
   font-family: "Yantramanav", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  margin-right: -32px;
   font-weight: 500;
   text-decoration: none;
   padding-left: 0px;
   background-image: url(../img/bullet.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  padding-left: 90px;
+  background-position: center, left;
+  padding-left: 80px;
 }
 
 .bullet-point1 {

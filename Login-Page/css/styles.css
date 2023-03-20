@@ -17,16 +17,26 @@
   height: 335px;
   display: flex;
   justify-content: start;
+  border: 10px;
+}
+.right-content {
+  background-color: red;
+  width: 50%;
+  height: 185px;
 }
 /*--div-3--*/
-
+.photos {
+  border: 1px;
+  background-color: blue;
+  width: 50%;
+  height: 185px;
+  display: flex;
+  justify-content: center;
+}
 .photo-left {
   height: 120px;
   display: flex;
   justify-content: center;
-}
-
-hr {
 }
 
 .photo-right {
