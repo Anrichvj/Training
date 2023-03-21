@@ -1,7 +1,7 @@
 /*--div-1--*/
 .main-body {
-  background-color: rgb(252, 248, 248);
-  width: 970px;
+  background-color: rgb(230, 222, 222);
+  width: 1100px;
   height: 540px;
   margin: auto;
   margin-top: 30px;
@@ -9,7 +9,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: #000000 2px;
 }
 /*--div-2--*/
 .content {
@@ -19,13 +18,13 @@
   display: flex;
   justify-content: space-between;
   align-items: end;
-  border: solid #e8e3e3 1px;
+  border: solid #bcbcbc 2px;
 }
 /*--left-content--*/
 .left-column {
   width: 50%;
   height: 100%;
-  border-right: solid #bababa 1px;
+  border-right: solid #e2e2e2 1px;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -35,6 +34,7 @@
 .top-left-photo {
   height: 120px;
   width: 120px;
+  margin-top: 15px;
 }
 
 .left-photo {
@@ -46,21 +46,24 @@
 
 .left-text-top {
   width: 380px;
-  border-top: solid #bababa 1px;
-  margin-left: 11px;
+  border-top: solid #e2e2e2 1px;
+  margin-left: 25px;
   font-family: sans-serif;
   font-size: 9.9px;
   font-weight: bolder;
   height: 35px;
   padding-top: 7px;
+  display: flex;
+  align-items: end;
+  margin-top: 10px;
   color: rgb(78, 76, 76);
 }
 
 .left-bottom-text {
   width: 380px;
-  border-top: solid #bababa 1px;
-  margin-left: 11px;
-  margin-top: 9px;
+  border-top: solid #e2e2e2 1px;
+  margin-left: 25px;
+  margin-top: 10px;
   height: 80px;
   display: flex;
   justify-content: start;
@@ -73,11 +76,12 @@
 
 .button button {
   width: 380px;
-  margin-left: 11px;
-  margin-top: 8px;
+  height: 22px;
+  margin-left: 25px;
+  margin-top: 12px;
   font-weight: normal;
   background-color: #20a8d8;
-  border-color: #20a8d8;
+  border: none;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
@@ -100,15 +104,16 @@ button:hover {
   width: 375px;
   height: 140px;
   margin-top: 50px;
+  margin-right: 25px;
 }
 
 .top-right-photo {
-  width: 380px;
+  width: 400px;
   height: 140px;
 }
 
 .bottom-right-text {
-  border-top: solid #bababa 1px;
+  border-top: solid #e2e2e2 1px;
   height: 40px;
   margin-top: 10px;
   display: flex;
@@ -117,4 +122,5 @@ button:hover {
   font-weight: bolder;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(94, 90, 90);
+  width: 400px;
 }
