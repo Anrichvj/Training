@@ -1,6 +1,6 @@
 /*--div-1--*/
 .main-body {
-  background-color: rgb(230, 221, 221);
+  background-color: rgb(252, 248, 248);
   width: 970px;
   height: 540px;
   margin: auto;
@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: #000000 2px;
 }
 /*--div-2--*/
 .content {
@@ -18,13 +19,13 @@
   display: flex;
   justify-content: space-between;
   align-items: end;
-  border: solid #bcb6b6 2px;
+  border: solid #e8e3e3 1px;
 }
-
+/*--left-content--*/
 .left-column {
   width: 50%;
   height: 100%;
-  border-right: solid grey 2px;
+  border-right: solid #bababa 1px;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -44,11 +45,11 @@
 }
 
 .left-text-top {
-  width: 360px;
-  border-top: solid grey 1px;
+  width: 380px;
+  border-top: solid #bababa 1px;
   margin-left: 11px;
   font-family: sans-serif;
-  font-size: 9.5px;
+  font-size: 9.9px;
   font-weight: bolder;
   height: 35px;
   padding-top: 7px;
@@ -56,8 +57,8 @@
 }
 
 .left-bottom-text {
-  width: 353px;
-  border-top: solid grey 1px;
+  width: 380px;
+  border-top: solid #bababa 1px;
   margin-left: 11px;
   margin-top: 9px;
   height: 80px;
@@ -65,13 +66,13 @@
   justify-content: start;
   align-items: start;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 9.5px;
+  font-size: 10px;
   font-weight: bolder;
   color: rgb(94, 90, 90);
 }
 
 .button button {
-  width: 354px;
+  width: 380px;
   margin-left: 11px;
   margin-top: 8px;
   font-weight: normal;
@@ -79,6 +80,7 @@
   border-color: #20a8d8;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
 }
 
 button:hover {
@@ -106,7 +108,7 @@ button:hover {
 }
 
 .bottom-right-text {
-  border-top: solid grey 1px;
+  border-top: solid #bababa 1px;
   height: 40px;
   margin-top: 10px;
   display: flex;
